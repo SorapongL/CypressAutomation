@@ -1,0 +1,15 @@
+{
+  "name": "cypressautomation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules\\.bin\\cypress run --spec C:\\Users\\james\\CypressAutomation\\cypress\\integration\\examples\\FixturesDemo.spec.js",
+    "runtests": "npm run test --"
+  },
+  "author": "sorapong",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^4.0.2"
+  }
+}
